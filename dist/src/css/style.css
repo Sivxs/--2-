@@ -1,0 +1,148 @@
+/* Шапка */
+header {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    justify-content: space-evenly;
+}
+.headlogo {
+    width: 140px;
+    height: 58px;
+}
+.header_menu {
+    font-size: 23px;
+    font-family: 'Nunito', sans-serif;
+}
+.based {
+    color: rgb(112, 184, 6);
+    font-size: 23px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Ссылки */
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: rgb(112, 184, 6);
+}
+
+/* Середина сайта */
+.back_logo {
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.secondcentered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.place {
+    background-color: rgb(94, 124, 92);
+    padding: 1%;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    margin-top: 0;
+}
+
+
+.basicpage {
+    display: flex;
+    margin-bottom: 10%;
+}
+.page1 {
+    flex-direction: column;
+    margin-left: 46px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+section {
+    margin-left: 400px;
+}
+.news1 {
+    font-family: 'Nunito', sans-serif;
+    margin-right: 100px;
+}
+
+.basic_news {
+    font-size: 40px;
+}
+.news_title {
+    font-size: 20px;
+}
+
+/* Подвал */
+footer {
+    background-color: rgb(94, 124, 92);
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.footer_content {
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+.footer_logo {
+    width: 240px;
+    height: 110px;
+    margin-left: 750px;
+    margin-top: 100px;
+}
+.footer_first {
+    font-size: 32px;
+}
+.footer_menu {
+    font-size: 27px;
+}
+.prava {
+    color: rgb(135, 140, 145);
+    text-align: center;
+    font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 992px) {
+    
+}
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 480px) {
+    
+}
+@media (min-width: 320px) {
+    
+}
